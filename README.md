@@ -3,8 +3,13 @@
 Friday, November 13, 2026. Everything here runs on its own. Write what you see in
 `OBSERVATIONS.txt` in this folder (or anywhere in `LIB_LLMIN/`): rough notes are fine.
 
+## 0. Vibecode3D loses its game cards on every restart (a standalone can't save its stack)
+Double-click **`INSTALL_ALL_GAMES_Vibecode3D.bat`**: all 9 games from LIB_GAMES go back in and the
+game menu is rebuilt. Each `PLAY_<Game>_Vibecode3D.bat` (Thrmnlra, Amazing_Couple, Face, Antack)
+does that too and then starts that game.
+
 ## 1. Thrmnlra in Vibecode3D
-Double-click **`PLAY_Thrmnlra_Vibecode3D.bat`** (starts the standalone, loads the game, plays).
+Double-click **`PLAY_Thrmnlra_Vibecode3D.bat`** (starts the standalone, loads the games, plays).
 ## 2. Thrmnlra in xt3d (raylib)
 Double-click **`PLAY_Thrmnlra_xt3d.bat`**, or open the games bench, click **Games**, then **Thrmnlra**.
 
