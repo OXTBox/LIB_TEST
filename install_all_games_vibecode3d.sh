@@ -24,6 +24,15 @@ $V run 'try
   Menu.Threedots.Build
 end try
 return "menu rebuilt"' | tail -1
+# game notes: ` or F2 in any game opens a note box; notes go to LIB_LLMIN/LIB_GAMES/GAME_NOTES.txt
+NW=$(wslpath -w /home/igame3d/projects/LIB_GAMES/tools/GameNotes.livecodescript)
+$V run "if there is a stack \"GameNotes\" then
+  remove script of stack \"GameNotes\" from front
+  delete stack \"GameNotes\"
+end if
+start using stack \"$NW\"
+insert script of stack \"GameNotes\" into front
+return \"game notes on: \` or F2\"" | tail -1
 if [ -n "$1" ]; then
   $V run "repeat for each item tS in \"Sequencer,Seq_Clip_Wait,Seq_Clip_Cue,Seq_Clip_Console,Seq_Clip_Type,Seq_Clip_Ask,Seq_Clip_Title,Seq_Clip_Fade,Seq_Clip_Input,Seq_Clip_Hotword,Thrmnlra_Clip_Countdown,Thrmnlra_Clip_RecallKey,Thrmnlra_Clip_Targets,Thrmnlra_Clip_Drill,Thrmnlra_Clip_Outbound\"
   if there is a stack tS then delete stack tS
