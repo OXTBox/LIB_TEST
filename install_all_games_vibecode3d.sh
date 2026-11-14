@@ -3,6 +3,13 @@
 # its stack, so run this after each start), rebuild the game menu, optionally play one.
 #   bash install_all_games_vibecode3d.sh [GameToPlay]
 V=/home/igame3d/projects/Vibecode3D/tools_vibe.sh
+# two VibeCode3D windows fight over the dev server ("bad or missing X-Token"): say so plainly
+N=$(tasklist.exe 2>/dev/null | grep -ic "^VibeCode3D.exe")
+if [ "${N:-0}" -gt 1 ]; then
+  echo "Two VibeCode3D windows are open, so this can't talk to either. Close one (or both) and run this again."
+  echo "  (or close them all from here:  taskkill.exe /F /IM VibeCode3D.exe )"
+  exit 1
+fi
 D=/home/igame3d/projects/LIB_GAMES/Vibecode3D_Games
 $V run 'try
   Game.Exit
