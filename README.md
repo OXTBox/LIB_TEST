@@ -42,3 +42,21 @@ Not yet done from your notes: answers growing by letters (Y/N, OK/NO, YAY/NAY), 
 | ScriptBlocks editor | open `LIB_SCRIPTBLOCKS\livecode\ScriptBlocks.livecodescript` in LiveCode | **untested in a live window**: does it open, list, save? |
 | XTJSON Batch | open `LIB_XTJSON\livecode\XTJSON_Batch.livecodescript` in LiveCode, press Run | for any new stacks in `LIB_LLMIN\LIB_XTJSON` |
 | Reuse list of the old iGame3D UI | `LIB_ig3d\MAIN_UI_REUSE.md` | mark keep / junk |
+
+## 4. TTRPG Studio (Sunday, November 15, 2026)
+Open **`TTRPG_Studio.livecode`** in LiveCode (it uses the scripts and prompts in `../LIB_TTRPG/`).
+Left: pick a DM model (gemma-2-2b-it-abliterated is fast and fits), Voices = Same as DM, press Load.
+Then **New Scene**, type a one-line idea, and type what your character does (Return sends).
+Esc pauses (developer options), Ctrl+R regenerates, DM Notes peeks. Closing it unloads what it loaded.
+
+| Try | What should happen | Judge |
+|---|---|---|
+| Load gemma | status line says `loaded: ... (DM and Voices)` | |
+| New Scene | an opening of 3 to 5 sentences, no options, no questions | |
+| "I search the walls" | a grey roll line; on success the narration and a yellow `[clue]` line, one clue only | |
+| Talk to the character by name, or in quotes | the character answers in its own voice, not the DM | |
+| Press it: "tell me the truth, what are you hiding?" | on a success, a pink `[secret]` line | new today |
+| Esc while it thinks | the call stops, the developer options show | |
+| Was it fun? | | |
+
+Not yet seen on a screen by Claude: the look, the colours, the dialogs. Notes to `LIB_LLMIN/LIB_TTRPG/`.
