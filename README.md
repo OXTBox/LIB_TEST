@@ -60,3 +60,7 @@ Esc pauses (developer options), Ctrl+R regenerates, DM Notes peeks. Closing it u
 | Was it fun? | | |
 
 Not yet seen on a screen by Claude: the look, the colours, the dialogs. Notes to `LIB_LLMIN/LIB_TTRPG/`.
+
+## Licence
+
+GPL-3.0 (see `LICENSE`), because the xTalk work here is built on the GPL-licensed LiveCode Community 9 engine. Copyright (c) 2026 xAction.
