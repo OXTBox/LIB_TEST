@@ -1,0 +1,93 @@
+source	key	name	kind	prefix	startlevel	levels	levels_how	keys	tab	arrows	libraries	start_using	level_calls	calls_with_code_after	lines	file
+LIB_GAMES	Amazing_Couple	Amazing Couple	game	Couple				keysDown+arrowKey		yes	lib_bit.livecodescript,lib_map.livecodescript,lib_cellmap.livecodescript	1	0	0	960	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Amazing_Couple.livecodescript
+LIB_GAMES	Antack	Antack	game	Antack	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	5	0	730	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Antack.livecodescript
+LIB_GAMES	AntackFresh	Antack Fresh	game	Antack	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	5	0	816	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_AntackFresh.livecodescript
+LIB_GAMES	BankShotBounce	Bank Shot Bounce	not in catalog	BS		5	header	keysDown+arrowKey		yes		0	0	0	977	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_BankShotBounce.livecodescript
+LIB_GAMES	BatDuel	Bat Duel	game	Duel	yes	5	header	keysDown		yes		0	4	2	172	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_BatDuel.livecodescript
+LIB_GAMES	BigBallOfVectors	Big Ball Of Vectors	game	Ball	yes	5	header	keysDown+arrowKey		yes		0	2	0	233	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_BigBallOfVectors.livecodescript
+LIB_GAMES	BlockCityHustle	Block City Hustle	game	Hust	yes	5	compare	keysDown+arrowKey		yes		0	3	0	665	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_BlockCityHustle.livecodescript
+LIB_GAMES	BounceRally	Bounce Rally	game	Rally	yes	5	compare	keysDown+arrowKey		yes		0	3	2	413	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_BounceRally.livecodescript
+LIB_GAMES	Canyon	Canyon	game	Canyon		4	compare	none found				0	0	0	559	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Canyon.livecodescript
+LIB_GAMES	CityShield	City Shield	game	City	yes	5	header	keysDown+arrowKey		yes		0	3	2	225	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_CityShield.livecodescript
+LIB_GAMES	CoastRoad	Coast Road	game	Coast	yes	5	compare	keysDown+arrowKey		yes		0	3	2	391	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_CoastRoad.livecodescript
+LIB_GAMES	ComfyPong1	Comfy Pong1	game	Cpong	yes	3	header	keysDown+arrowKey		yes		0	3	1	496	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_ComfyPong1.livecodescript
+LIB_GAMES	CraterCrawler	Crater Crawler	game	Crater	yes	5	compare	keysDown+arrowKey		yes		0	3	1	793	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_CraterCrawler.livecodescript
+LIB_GAMES	CrossTraffic	Cross Traffic	game	Cross	yes	5	header	keysDown+arrowKey		yes		0	3	1	186	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_CrossTraffic.livecodescript
+LIB_GAMES	DeadDays	Dead Days	game	DD				keysDown+rawKeyDown,arrowKey		yes	anim_list.livecodescript	2	0	0	1237	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_DeadDays.livecodescript
+LIB_GAMES	DeepDive	Deep Dive	game	Dive	yes	5	header	keysDown+arrowKey		yes		0	3	1	181	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_DeepDive.livecodescript
+LIB_GAMES	DodgeTunnel	Dodge Tunnel	game	Dodge	yes	5	compare	keysDown+arrowKey		yes		0	3	2	216	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_DodgeTunnel.livecodescript
+LIB_GAMES	DotMaze	Dot Maze	game	Maze	yes	5	header	keysDown+arrowKey		yes		0	3	1	240	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_DotMaze.livecodescript
+LIB_GAMES	DotMazeLean	Dot Maze Lean	game	Maze	yes	5	header	keysDown+arrowKey		yes		0	3	1	346	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_DotMazeLean.livecodescript
+LIB_GAMES	Face	Face	tool	Face				none found			lib_map.livecodescript	1	0	0	121	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Face.livecodescript
+LIB_GAMES	FareDash	Fare Dash	game	Fare	yes	5	compare	keysDown+arrowKey		yes		0	3	1	442	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_FareDash.livecodescript
+LIB_GAMES	FloppyFlynn	Floppy Flynn	game	Flop		5	header	keysDown				0	0	0	223	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_FloppyFlynn.livecodescript
+LIB_GAMES	FuelLine	Fuel Line	game	Fuel	yes	5	compare	keysDown+arrowKey		yes		0	3	1	368	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_FuelLine.livecodescript
+LIB_GAMES	GridSprint	Grid Sprint	game	Grid	yes	5	header	keysDown+arrowKey		yes		0	5	4	575	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_GridSprint.livecodescript
+LIB_GAMES	Hunter	Hunter	game	Hunter				keysDown+rawKeyUp,arrowKey+Input.*		yes		0	0	0	888	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Hunter.livecodescript
+LIB_GAMES	InterceptorRun	Interceptor Run	game	Int	yes	5	compare	keysDown+rawKeyDown,arrowKey		yes		0	3	2	711	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_InterceptorRun.livecodescript
+LIB_GAMES	JaiAlaiBlock	Jai Alai Block	game	Jai	yes	5	header	keysDown+arrowKey		yes		0	3	1	219	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_JaiAlaiBlock.livecodescript
+LIB_GAMES	LightTrailArena	Light Trail Arena	game	Light	yes	5	compare	keysDown+arrowKey		yes		0	4	1	936	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_LightTrailArena.livecodescript
+LIB_GAMES	LongWorm	Long Worm	game	Worm	yes	5	header	keysDown+arrowKey		yes		0	4	2	208	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_LongWorm.livecodescript
+LIB_GAMES	MatrixLock	Matrix Lock	game	Lock	yes	5	header	keysDown+arrowKey		yes		0	2	0	412	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_MatrixLock.livecodescript
+LIB_GAMES	NeonDriftWastes	Neon Drift Wastes	game	Neon	yes	5	header	keysDown+arrowKey		yes		0	3	2	292	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_NeonDriftWastes.livecodescript
+LIB_GAMES	NineBall	Nine Ball	not in catalog	NB				keysDown+arrowKey		yes		0	0	0	754	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_NineBall.livecodescript
+LIB_GAMES	PhotonBall	Photon Ball	game	PB				keysDown+arrowKey		yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	2974	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_PhotonBall.livecodescript
+LIB_GAMES	ProbeVsCone	Probe Vs Cone	game	Probe	yes	5	header	keysDown+arrowKey		yes		0	2	0	689	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_ProbeVsCone.livecodescript
+LIB_GAMES	PromptAndGlazeMaze	Prompt And Glaze Maze	game	Maze	yes	5	header	keysDown+arrowKey		yes		0	2	0	485	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_PromptAndGlazeMaze.livecodescript
+LIB_GAMES	RampRider	Ramp Rider	game	Ramp	yes	5	compare	keysDown+arrowKey		yes		0	5	1	529	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_RampRider.livecodescript
+LIB_GAMES	RockField	Rock Field	game	Rock	yes	5	header	keysDown+arrowKey		yes		0	3	2	232	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_RockField.livecodescript
+LIB_GAMES	ShaftDescent	Shaft Descent	game	Shaft	yes	5	header	keysDown+arrowKey		yes		0	2	1	299	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_ShaftDescent.livecodescript
+LIB_GAMES	Simple_Test1	Simple Test1	tool	Cube				none found				0	0	0	65	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Simple_Test1.livecodescript
+LIB_GAMES	Simple_Test2	Simple Test2	tool	Demo				rawKeyDown				0	0	0	465	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Simple_Test2.livecodescript
+LIB_GAMES	SkyRaiders	Sky Raiders	game	Raid	yes	5	header	keysDown+arrowKey		yes		0	3	1	245	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_SkyRaiders.livecodescript
+LIB_GAMES	SoftLanding	Soft Landing	game	Land	yes	5	header	keysDown+arrowKey		yes		0	5	0	178	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_SoftLanding.livecodescript
+LIB_GAMES	SquadBuggy	Squad Buggy	game	Squad	yes	5	header	keysDown+arrowKey		yes		0	3	1	1247	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_SquadBuggy.livecodescript
+LIB_GAMES	StackDown	Stack Down	game	Stack	yes	5	header	keysDown+arrowKey		yes		0	3	2	256	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_StackDown.livecodescript
+LIB_GAMES	TabletopRacers	Tabletop Racers	game	Table	yes	5	compare	keysDown+arrowKey		yes		0	5	1	452	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_TabletopRacers.livecodescript
+LIB_GAMES	Thrmnlra	Thrmnlra	game	Thrm				keyDown,returnKey,enterKey,backspaceKey			sequencer.livecodescript,lib_map.livecodescript	1	0	0	1569	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_Thrmnlra.livecodescript
+LIB_GAMES	TrenchRun	Trench Run	game	Trench				keysDown+arrowKey		yes		0	0	0	310	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_TrenchRun.livecodescript
+LIB_GAMES	VectorBlobApocalypse	Vector Blob Apocalypse	game	Blob	yes	5	header	keysDown+arrowKey		yes		0	2	1	208	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_VectorBlobApocalypse.livecodescript
+LIB_GAMES	VectorPong3D	Vector Pong 3D	game	Pong	yes	5	header	keysDown+arrowKey		yes		0	3	0	234	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_VectorPong3D.livecodescript
+LIB_GAMES	VectorToss	Vector Toss	game	VT		4	compare	keysDown+arrowKey		yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	2034	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_VectorToss.livecodescript
+LIB_GAMES	VineRun	Vine Run	game	Vine	yes	5	header	keysDown+arrowKey		yes		0	3	1	268	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_VineRun.livecodescript
+LIB_GAMES	WallBreaker	Wall Breaker	game	Wall	yes	5	header	keysDown+arrowKey		yes		0	3	1	197	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_WallBreaker.livecodescript
+LIB_GAMES	WreckRing	Wreck Ring	game	Wreck	yes	5	compare	keysDown+arrowKey		yes		0	4	1	517	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_WreckRing.livecodescript
+LIB_GAMES	demo	Demo	tool	Demo				rawKeyDown				0	0	0	497	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_demo.livecodescript
+LIB_GAMES	uDead	uDead	game	uDead	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	2	1	2322	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_uDead.livecodescript
+LIB_GAMES	uDead_CullTest	u Dead Cull Test	not in catalog	uDead	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	2	1	2493	LIB_GAMES/Vibecode3D_Games/Vibecode3D_Play_uDead_CullTest.livecodescript
+LIB_GAD	GeneticAnomaly	Genetic Anomaly	game	GA				keysDown+rawKeyDown	yes	yes		0	0	0	906	LIB_GAD/GeneticAnomaly/Vibecode3D_Play_GeneticAnomaly.livecodescript
+LIB_COMFY	ComfyBricks1	Comfy Bricks1	comfy	Brick	yes	3	header	keysDown+arrowKey		yes		0	3	2	824	LIB_COMFY/games/Vibecode3D_Play_ComfyBricks1.livecodescript
+LIB_COMFY	ComfyBricks369094105	Comfy Bricks369094105	comfy	Brick	yes	3	header	keysDown+arrowKey		yes		0	3	2	825	LIB_COMFY/games/Vibecode3D_Play_ComfyBricks369094105.livecodescript
+LIB_COMFY	ComfyBricks727270000	Comfy Bricks727270000	comfy	Brick	yes	3	header	keysDown+arrowKey		yes		0	3	2	825	LIB_COMFY/games/Vibecode3D_Play_ComfyBricks727270000.livecodescript
+LIB_COMFY	ComfyDodge1	Comfy Dodge1	comfy	Dodge	yes	3	header	keysDown+arrowKey		yes		0	3	2	694	LIB_COMFY/games/Vibecode3D_Play_ComfyDodge1.livecodescript
+LIB_COMFY	ComfyDodge1027255621	Comfy Dodge1027255621	comfy	Dodge	yes	3	header	keysDown+arrowKey		yes		0	3	2	689	LIB_COMFY/games/Vibecode3D_Play_ComfyDodge1027255621.livecodescript
+LIB_COMFY	ComfyDodge1425542174	Comfy Dodge1425542174	comfy	Dodge	yes	3	header	keysDown+arrowKey		yes		0	3	2	689	LIB_COMFY/games/Vibecode3D_Play_ComfyDodge1425542174.livecodescript
+LIB_COMFY	ComfyLander1	Comfy Lander1	comfy	Lander	yes	3	header	keysDown+arrowKey		yes		0	3	1	661	LIB_COMFY/games/Vibecode3D_Play_ComfyLander1.livecodescript
+LIB_COMFY	ComfyLander802252756	Comfy Lander802252756	comfy	Lander	yes	3	header	keysDown+arrowKey		yes		0	3	1	661	LIB_COMFY/games/Vibecode3D_Play_ComfyLander802252756.livecodescript
+LIB_COMFY	ComfyLander999014855	Comfy Lander999014855	comfy	Lander	yes	3	header	keysDown+arrowKey		yes		0	3	1	661	LIB_COMFY/games/Vibecode3D_Play_ComfyLander999014855.livecodescript
+LIB_COMFY	ComfyPhoton1	Comfy Photon1	comfy	PB				keysDown+arrowKey	yes	yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	3024	LIB_COMFY/games/Vibecode3D_Play_ComfyPhoton1.livecodescript
+LIB_COMFY	ComfyPhoton11	Comfy Photon11	comfy	PB				keysDown+arrowKey	yes	yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	3024	LIB_COMFY/games/Vibecode3D_Play_ComfyPhoton11.livecodescript
+LIB_COMFY	ComfyPhoton12	Comfy Photon12	comfy	PB				keysDown+arrowKey	yes	yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	3024	LIB_COMFY/games/Vibecode3D_Play_ComfyPhoton12.livecodescript
+LIB_COMFY	ComfyPhoton13	Comfy Photon13	comfy	PB				keysDown+arrowKey	yes	yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	3028	LIB_COMFY/games/Vibecode3D_Play_ComfyPhoton13.livecodescript
+LIB_COMFY	ComfyPhoton542874626	Comfy Photon542874626	comfy	PB				keysDown+arrowKey	yes	yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	3022	LIB_COMFY/games/Vibecode3D_Play_ComfyPhoton542874626.livecodescript
+LIB_COMFY	ComfyPhoton937801948	Comfy Photon937801948	comfy	PB				keysDown+arrowKey	yes	yes	anim_list.livecodescript,lib_data.livecodescript,stamina.livecodescript	3	0	0	3021	LIB_COMFY/games/Vibecode3D_Play_ComfyPhoton937801948.livecodescript
+LIB_COMFY	ComfyPong1121386700	Comfy Pong1121386700	comfy	Cpong	yes	3	header	keysDown+arrowKey		yes		0	3	1	501	LIB_COMFY/games/Vibecode3D_Play_ComfyPong1121386700.livecodescript
+LIB_COMFY	ComfyPong2102167373	Comfy Pong2102167373	comfy	Cpong	yes	3	header	keysDown+arrowKey		yes		0	3	1	496	LIB_COMFY/games/Vibecode3D_Play_ComfyPong2102167373.livecodescript
+LIB_COMFY	ComfyPong990442537	Comfy Pong990442537	comfy	Cpong	yes	3	header	keysDown+arrowKey		yes		0	3	1	498	LIB_COMFY/games/Vibecode3D_Play_ComfyPong990442537.livecodescript
+LIB_COMFY	ComfyRocks1	Comfy Rocks1	comfy	Rocks	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	3	2	736	LIB_COMFY/games/Vibecode3D_Play_ComfyRocks1.livecodescript
+LIB_COMFY	ComfyRocks1986587068	Comfy Rocks1986587068	comfy	Rocks	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	3	2	736	LIB_COMFY/games/Vibecode3D_Play_ComfyRocks1986587068.livecodescript
+LIB_COMFY	ComfyRocks836984315	Comfy Rocks836984315	comfy	Rocks	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	3	2	736	LIB_COMFY/games/Vibecode3D_Play_ComfyRocks836984315.livecodescript
+LIB_COMFY	ComfySquad1	Comfy Squad1	comfy	Squad	yes	5	header	keysDown+arrowKey		yes		0	3	1	1315	LIB_COMFY/games/Vibecode3D_Play_ComfySquad1.livecodescript
+LIB_COMFY	ComfySquad1153357979	Comfy Squad1153357979	comfy	Squad	yes	5	header	keysDown+arrowKey		yes		0	3	1	1313	LIB_COMFY/games/Vibecode3D_Play_ComfySquad1153357979.livecodescript
+LIB_COMFY	ComfySquad443265200	Comfy Squad443265200	comfy	Squad	yes	5	header	keysDown+arrowKey		yes		0	3	1	1318	LIB_COMFY/games/Vibecode3D_Play_ComfySquad443265200.livecodescript
+LIB_COMFY	ComfySquad992306219	Comfy Squad992306219	comfy	Squad	yes	5	header	keysDown+arrowKey		yes		0	3	1	1316	LIB_COMFY/games/Vibecode3D_Play_ComfySquad992306219.livecodescript
+LIB_COMFY	ComfyToss1	Comfy Toss1	comfy	VT		4	compare	keysDown+arrowKey	yes	yes	anim_list.livecodescript	1	0	0	1957	LIB_COMFY/games/Vibecode3D_Play_ComfyToss1.livecodescript
+LIB_COMFY	ComfyToss1895324116	Comfy Toss1895324116	comfy	VT		4	compare	keysDown+arrowKey	yes	yes	anim_list.livecodescript	1	0	0	1951	LIB_COMFY/games/Vibecode3D_Play_ComfyToss1895324116.livecodescript
+LIB_COMFY	ComfyToss1940951111	Comfy Toss1940951111	comfy	VT		4	compare	keysDown+arrowKey	yes	yes	anim_list.livecodescript	1	0	0	1960	LIB_COMFY/games/Vibecode3D_Play_ComfyToss1940951111.livecodescript
+LIB_COMFY	ComfyToss401421723	Comfy Toss401421723	comfy	VT		4	compare	keysDown+arrowKey	yes	yes	anim_list.livecodescript	1	0	0	1958	LIB_COMFY/games/Vibecode3D_Play_ComfyToss401421723.livecodescript
+LIB_COMFY	ComfyWaves1	Comfy Waves1	comfy	Wave	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	3	2	823	LIB_COMFY/games/Vibecode3D_Play_ComfyWaves1.livecodescript
+LIB_COMFY	ComfyWaves1516237256	Comfy Waves1516237256	comfy	Wave	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	3	2	822	LIB_COMFY/games/Vibecode3D_Play_ComfyWaves1516237256.livecodescript
+LIB_COMFY	ComfyWaves2050313440	Comfy Waves2050313440	comfy	Wave	yes	?	StartLevel, no count	keysDown+arrowKey		yes		0	3	2	816	LIB_COMFY/games/Vibecode3D_Play_ComfyWaves2050313440.livecodescript
+LIB_COMFY	ComfyWorm1	Comfy Worm1	comfy	Coil	yes	3	header	keysDown+arrowKey		yes		0	4	2	812	LIB_COMFY/games/Vibecode3D_Play_ComfyWorm1.livecodescript
+LIB_COMFY	ComfyWorm147572964	Comfy Worm147572964	comfy	Coil	yes	3	header	keysDown+arrowKey		yes		0	4	2	819	LIB_COMFY/games/Vibecode3D_Play_ComfyWorm147572964.livecodescript
+LIB_COMFY	ComfyWorm540039511	Comfy Worm540039511	comfy	Coil	yes	3	header	keysDown+arrowKey		yes		0	4	2	819	LIB_COMFY/games/Vibecode3D_Play_ComfyWorm540039511.livecodescript

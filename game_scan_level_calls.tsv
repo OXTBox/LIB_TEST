@@ -1,0 +1,210 @@
+key	prefix	line	in_handler	then
+Antack	Antack	336	Antack.MenuClick	nothing
+Antack	Antack	339	Antack.MenuClick	nothing
+Antack	Antack	342	Antack.MenuClick	nothing
+Antack	Antack	345	Antack.MenuClick	nothing
+Antack	Antack	477	Antack.PlayStep	nothing
+AntackFresh	Antack	415	Antack.MenuClick	nothing
+AntackFresh	Antack	418	Antack.MenuClick	nothing
+AntackFresh	Antack	421	Antack.MenuClick	nothing
+AntackFresh	Antack	424	Antack.MenuClick	nothing
+AntackFresh	Antack	556	Antack.PlayStep	nothing
+BatDuel	Duel	31	Game.OnStart	nothing
+BatDuel	Duel	89	Game.OnUpdate	nothing
+BatDuel	Duel	142	Duel.Point	put empty into sHUDWas
+BatDuel	Duel	145	Duel.Point	put empty into sHUDWas
+BigBallOfVectors	Ball	34	Game.OnStart	nothing
+BigBallOfVectors	Ball	160	Game.OnUpdate	nothing
+BlockCityHustle	Hust	47	Game.OnStart	nothing
+BlockCityHustle	Hust	310	Game.OnUpdate	nothing
+BlockCityHustle	Hust	479	Hust.JobDone	nothing
+BounceRally	Rally	37	Game.OnStart	nothing
+BounceRally	Rally	206	Game.OnUpdate	put tKeys into sKeysWas
+BounceRally	Rally	262	Game.OnUpdate	Rally.ShowHUD
+CityShield	City	35	Game.OnStart	nothing
+CityShield	City	89	Game.OnUpdate	put tSpace into sSpaceWas
+CityShield	City	190	Game.OnUpdate	City.ShowHUD
+CoastRoad	Coast	42	Game.OnStart	nothing
+CoastRoad	Coast	208	Game.OnUpdate	put tKeys into sKeysWas
+CoastRoad	Coast	300	Game.OnUpdate	Coast.ShowHUD
+ComfyPong1	Cpong	32	Game.OnStart	nothing
+ComfyPong1	Cpong	156	Game.OnUpdate	Cpong.ShowHUD
+ComfyPong1	Cpong	306	Cpong.Point	nothing
+CraterCrawler	Crater	48	Game.OnStart	nothing
+CraterCrawler	Crater	319	Game.OnUpdate	put tKeys into sKeysWas
+CraterCrawler	Crater	473	Crater.Posts	nothing
+CrossTraffic	Cross	31	Game.OnStart	nothing
+CrossTraffic	Cross	110	Game.OnUpdate	nothing
+CrossTraffic	Cross	145	Game.OnUpdate	Cross.ShowHUD
+DeepDive	Dive	33	Game.OnStart	nothing
+DeepDive	Dive	96	Game.OnUpdate	nothing
+DeepDive	Dive	143	Game.OnUpdate	Dive.ShowHUD
+DodgeTunnel	Dodge	32	Game.OnStart	nothing
+DodgeTunnel	Dodge	97	Game.OnUpdate	put tKeys into sKeysWas
+DodgeTunnel	Dodge	168	Game.OnUpdate	Dodge.ShowHUD
+DotMaze	Maze	45	Game.OnStart	nothing
+DotMaze	Maze	133	Game.OnUpdate	nothing
+DotMaze	Maze	210	Game.OnUpdate	Maze.ShowHUD
+DotMazeLean	Maze	46	Game.OnStart	nothing
+DotMazeLean	Maze	239	Game.OnUpdate	nothing
+DotMazeLean	Maze	316	Game.OnUpdate	Maze.ShowHUD
+FareDash	Fare	40	Game.OnStart	nothing
+FareDash	Fare	283	Game.OnUpdate	put tKeys into sKeysWas
+FareDash	Fare	385	Game.OnUpdate	nothing
+FuelLine	Fuel	40	Game.OnStart	nothing
+FuelLine	Fuel	175	Game.OnUpdate	put tKeys into sKeysWas
+FuelLine	Fuel	272	Game.OnUpdate	nothing
+GridSprint	Grid	51	Game.OnStart	nothing
+GridSprint	Grid	263	Game.OnUpdate	put tKeys into sKeysWas
+GridSprint	Grid	269	Game.OnUpdate	put tKeys into sKeysWas
+GridSprint	Grid	271	Game.OnUpdate	put tKeys into sKeysWas
+GridSprint	Grid	273	Game.OnUpdate	put tKeys into sKeysWas
+InterceptorRun	Int	48	Game.OnStart	nothing
+InterceptorRun	Int	250	Game.OnUpdate	put tKeys into sKeysWas
+InterceptorRun	Int	329	Game.OnUpdate	Int.ShowHUD
+JaiAlaiBlock	Jai	37	Game.OnStart	nothing
+JaiAlaiBlock	Jai	96	Game.OnUpdate	nothing
+JaiAlaiBlock	Jai	179	Game.OnUpdate	Jai.ShowHUD
+LightTrailArena	Light	60	Game.OnStart	nothing
+LightTrailArena	Light	452	Game.OnUpdate	put tKeys into sKeysWas
+LightTrailArena	Light	668	Light.EndRound	nothing
+LightTrailArena	Light	677	Light.EndRound	nothing
+LongWorm	Worm	29	Game.OnStart	nothing
+LongWorm	Worm	112	Game.OnUpdate	nothing
+LongWorm	Worm	148	Game.OnUpdate	Worm.ShowHUD
+LongWorm	Worm	175	Game.OnUpdate	Worm.ShowHUD
+MatrixLock	Lock	37	Game.OnStart	nothing
+MatrixLock	Lock	279	Lock.ClearRows	nothing
+NeonDriftWastes	Neon	35	Game.OnStart	nothing
+NeonDriftWastes	Neon	126	Game.OnUpdate	put tKeys into sKeysWas
+NeonDriftWastes	Neon	205	Game.OnUpdate	Neon.ShowHUD
+ProbeVsCone	Probe	51	Game.OnStart	nothing
+ProbeVsCone	Probe	567	Probe.MoveSpear	nothing
+PromptAndGlazeMaze	Maze	37	Game.OnStart	nothing
+PromptAndGlazeMaze	Maze	286	Maze.Eat	nothing
+RampRider	Ramp	40	Game.OnStart	nothing
+RampRider	Ramp	284	Game.OnUpdate	put tKeys into sKeysWas
+RampRider	Ramp	479	Ramp.Result	nothing
+RampRider	Ramp	481	Ramp.Result	nothing
+RampRider	Ramp	487	Ramp.Result	nothing
+RockField	Rock	35	Game.OnStart	nothing
+RockField	Rock	109	Game.OnUpdate	put (32 is among the items of tKeys) into sFireWas
+RockField	Rock	202	Game.OnUpdate	Rock.ShowHUD
+ShaftDescent	Shaft	41	Game.OnStart	nothing
+ShaftDescent	Shaft	244	Game.OnUpdate	Shaft.ShowHUD
+SkyRaiders	Raid	39	Game.OnStart	nothing
+SkyRaiders	Raid	108	Game.OnUpdate	nothing
+SkyRaiders	Raid	199	Game.OnUpdate	Raid.ShowHUD
+SoftLanding	Land	34	Game.OnStart	nothing
+SoftLanding	Land	92	Game.OnUpdate	nothing
+SoftLanding	Land	94	Game.OnUpdate	nothing
+SoftLanding	Land	99	Game.OnUpdate	nothing
+SoftLanding	Land	101	Game.OnUpdate	nothing
+SquadBuggy	Squad	67	Game.OnStart	nothing
+SquadBuggy	Squad	388	Game.OnUpdate	put tKeys into sKeysWas
+SquadBuggy	Squad	1102	Squad.Flags	nothing
+StackDown	Stack	31	Game.OnStart	nothing
+StackDown	Stack	155	Game.OnUpdate	Stack.ShowHUD
+StackDown	Stack	224	Stack.Land	Stack.ShowHUD
+TabletopRacers	Table	40	Game.OnStart	nothing
+TabletopRacers	Table	260	Game.OnUpdate	put tKeys into sKeysWas
+TabletopRacers	Table	366	Game.OnUpdate	nothing
+TabletopRacers	Table	381	Game.OnUpdate	nothing
+TabletopRacers	Table	419	Table.Finish	nothing
+VectorBlobApocalypse	Blob	36	Game.OnStart	nothing
+VectorBlobApocalypse	Blob	173	Game.OnUpdate	Blob.ShowHUD
+VectorPong3D	Pong	32	Game.OnStart	nothing
+VectorPong3D	Pong	107	Game.OnUpdate	nothing
+VectorPong3D	Pong	201	Pong.Point	nothing
+VineRun	Vine	38	Game.OnStart	nothing
+VineRun	Vine	146	Game.OnUpdate	nothing
+VineRun	Vine	222	Game.OnUpdate	Vine.ShowHUD
+WallBreaker	Wall	36	Game.OnStart	nothing
+WallBreaker	Wall	93	Game.OnUpdate	nothing
+WallBreaker	Wall	160	Game.OnUpdate	Wall.ShowHUD
+WreckRing	Wreck	38	Game.OnStart	nothing
+WreckRing	Wreck	189	Game.OnUpdate	put tKeys into sKeysWas
+WreckRing	Wreck	467	Wreck.EndRound	nothing
+WreckRing	Wreck	476	Wreck.EndRound	nothing
+uDead	uDead	101	Game.OnStart	if gNoMouse is not true then set the lockCursor to true
+uDead	uDead	115	Game.OnUpdate	nothing
+uDead_CullTest	uDead	114	Game.OnStart	if gNoMouse is not true then set the lockCursor to true
+uDead_CullTest	uDead	128	Game.OnUpdate	nothing
+ComfyBricks1	Brick	283	Game.OnStart	nothing
+ComfyBricks1	Brick	429	Game.OnUpdate	Brick.ShowHUD
+ComfyBricks1	Brick	461	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyBricks369094105	Brick	283	Game.OnStart	nothing
+ComfyBricks369094105	Brick	429	Game.OnUpdate	Brick.ShowHUD
+ComfyBricks369094105	Brick	461	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyBricks727270000	Brick	283	Game.OnStart	nothing
+ComfyBricks727270000	Brick	429	Game.OnUpdate	Brick.ShowHUD
+ComfyBricks727270000	Brick	461	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyDodge1	Dodge	283	Game.OnStart	nothing
+ComfyDodge1	Dodge	358	Game.OnUpdate	Dodge.ShowHUD
+ComfyDodge1	Dodge	384	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyDodge1027255621	Dodge	283	Game.OnStart	nothing
+ComfyDodge1027255621	Dodge	358	Game.OnUpdate	Dodge.ShowHUD
+ComfyDodge1027255621	Dodge	384	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyDodge1425542174	Dodge	283	Game.OnStart	nothing
+ComfyDodge1425542174	Dodge	358	Game.OnUpdate	Dodge.ShowHUD
+ComfyDodge1425542174	Dodge	384	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyLander1	Lander	283	Game.OnStart	nothing
+ComfyLander1	Lander	416	Game.OnUpdate	Lander.ShowHUD
+ComfyLander1	Lander	539	Lander.AfterWait	nothing
+ComfyLander802252756	Lander	283	Game.OnStart	nothing
+ComfyLander802252756	Lander	416	Game.OnUpdate	Lander.ShowHUD
+ComfyLander802252756	Lander	539	Lander.AfterWait	nothing
+ComfyLander999014855	Lander	283	Game.OnStart	nothing
+ComfyLander999014855	Lander	416	Game.OnUpdate	Lander.ShowHUD
+ComfyLander999014855	Lander	539	Lander.AfterWait	nothing
+ComfyPong1121386700	Cpong	32	Game.OnStart	nothing
+ComfyPong1121386700	Cpong	156	Game.OnUpdate	Cpong.ShowHUD
+ComfyPong1121386700	Cpong	306	Cpong.Point	nothing
+ComfyPong2102167373	Cpong	32	Game.OnStart	nothing
+ComfyPong2102167373	Cpong	156	Game.OnUpdate	Cpong.ShowHUD
+ComfyPong2102167373	Cpong	306	Cpong.Point	nothing
+ComfyPong990442537	Cpong	32	Game.OnStart	nothing
+ComfyPong990442537	Cpong	156	Game.OnUpdate	Cpong.ShowHUD
+ComfyPong990442537	Cpong	306	Cpong.Point	nothing
+ComfyRocks1	Rocks	285	Game.OnStart	nothing
+ComfyRocks1	Rocks	381	Game.OnUpdate	Rocks.ShowHUD
+ComfyRocks1	Rocks	408	Game.OnUpdate	if sScore >= sNextLife and sCfg["extraLife"] > 0 then
+ComfyRocks1986587068	Rocks	285	Game.OnStart	nothing
+ComfyRocks1986587068	Rocks	381	Game.OnUpdate	Rocks.ShowHUD
+ComfyRocks1986587068	Rocks	408	Game.OnUpdate	if sScore >= sNextLife and sCfg["extraLife"] > 0 then
+ComfyRocks836984315	Rocks	285	Game.OnStart	nothing
+ComfyRocks836984315	Rocks	381	Game.OnUpdate	Rocks.ShowHUD
+ComfyRocks836984315	Rocks	408	Game.OnUpdate	if sScore >= sNextLife and sCfg["extraLife"] > 0 then
+ComfySquad1	Squad	84	Game.OnStart	nothing
+ComfySquad1	Squad	406	Game.OnUpdate	put tKeys into sKeysWas
+ComfySquad1	Squad	1123	Squad.Flags	nothing
+ComfySquad1153357979	Squad	82	Game.OnStart	nothing
+ComfySquad1153357979	Squad	404	Game.OnUpdate	put tKeys into sKeysWas
+ComfySquad1153357979	Squad	1121	Squad.Flags	nothing
+ComfySquad443265200	Squad	83	Game.OnStart	nothing
+ComfySquad443265200	Squad	405	Game.OnUpdate	put tKeys into sKeysWas
+ComfySquad443265200	Squad	1123	Squad.Flags	nothing
+ComfySquad992306219	Squad	82	Game.OnStart	nothing
+ComfySquad992306219	Squad	404	Game.OnUpdate	put tKeys into sKeysWas
+ComfySquad992306219	Squad	1121	Squad.Flags	nothing
+ComfyWaves1	Wave	283	Game.OnStart	nothing
+ComfyWaves1	Wave	420	Game.OnUpdate	Wave.ShowHUD
+ComfyWaves1	Wave	442	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyWaves1516237256	Wave	283	Game.OnStart	nothing
+ComfyWaves1516237256	Wave	420	Game.OnUpdate	Wave.ShowHUD
+ComfyWaves1516237256	Wave	442	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyWaves2050313440	Wave	283	Game.OnStart	nothing
+ComfyWaves2050313440	Wave	420	Game.OnUpdate	Wave.ShowHUD
+ComfyWaves2050313440	Wave	442	Game.OnUpdate	if sMsgT > 0 then subtract 1 from sMsgT
+ComfyWorm1	Coil	283	Game.OnStart	nothing
+ComfyWorm1	Coil	460	Game.OnUpdate	Coil.ShowHUD
+ComfyWorm1	Coil	468	Game.OnUpdate	Coil.ShowHUD
+ComfyWorm1	Coil	637	Coil.LevelDone	nothing
+ComfyWorm147572964	Coil	283	Game.OnStart	nothing
+ComfyWorm147572964	Coil	460	Game.OnUpdate	Coil.ShowHUD
+ComfyWorm147572964	Coil	468	Game.OnUpdate	Coil.ShowHUD
+ComfyWorm147572964	Coil	637	Coil.LevelDone	nothing
+ComfyWorm540039511	Coil	283	Game.OnStart	nothing
+ComfyWorm540039511	Coil	460	Game.OnUpdate	Coil.ShowHUD
+ComfyWorm540039511	Coil	468	Game.OnUpdate	Coil.ShowHUD
+ComfyWorm540039511	Coil	637	Coil.LevelDone	nothing
