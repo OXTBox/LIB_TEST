@@ -61,6 +61,16 @@ Esc pauses (developer options), Ctrl+R regenerates, DM Notes peeks. Closing it u
 
 Not yet seen on a screen by Claude: the look, the colours, the dialogs. Notes to `LIB_LLMIN/LIB_TTRPG/`.
 
+## 5. Play report (play test 0001, 23 Nov 2026)
+
+`python3 -I play_report.py` reads the play record the loading screen writes
+(`Documents/My Games/Vibecode3D/play_record.txt`) and prints the last session: "10 games in 22.6 minutes,
+10 never got past level 1", then one row a game (starts, minutes, top level, level changes, how it ended, fps).
+`--all` every session, `--date 2026-11-23` one day, `--gap 30` minutes of quiet that start a new session,
+`--out report.md` a copy. Give it a tester pack folder (LIB_BAT/tester_pack.bat) and it also lists the notes
+written in the games during each session. "open" in the ended column = no quit or game-over line (closed hard
+or crashed). MIT (SPDX line in the file); reads only.
+
 ## Licence
 
 GPL-3.0 (see `LICENSE`), because the xTalk work here is built on the GPL-licensed LiveCode Community 9 engine. Copyright (c) 2026 xAction.
